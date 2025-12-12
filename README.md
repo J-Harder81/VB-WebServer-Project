@@ -25,5 +25,5 @@ The hosted web application explains each layer of the LAMP stack and provides tu
   
 Tutorials on how to complete these steps can be found in the assets/files/pdf folder or by clicking on the links above.
 ## Setup
-====== To be continued ======
+====== To be continued Still in Progress!! ======  
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
