@@ -83,7 +83,7 @@ Tutorials on how to complete these steps can be found in the `assets/files/pdf` 
    ```bash
    sudo systemctl restart apache2
    ```
-8. Using text editor like `vim` or `nano` to change the database login credentials in 4 php files (`authenticate.php`, `functions.php`, `profile.php`, and `register-process.php`)located in the `/var/www/jttutorials/php` directory
+8. Use text editor like `vim` or `nano` to change the database login credentials in 4 php files (`authenticate.php`, `functions.php`, `profile.php`, and `register-process.php`)located in the `/var/www/jttutorials/php` directory
    ```
    $DATABASE_HOST = 'localhost';
    $DATABASE_USER = 'username';
