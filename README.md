@@ -113,7 +113,9 @@ Tutorials on how to complete these steps can be found in the `assets/files/pdf` 
 - header.php (webpage header)
 - nav.php (webpage navigation bar)  
 ### `javascript` folder
-- script.js (script used to highlight which webpage the user is on)  
+- script.js (script used to highlight which webpage the user is on)
+### `mysql` folder
+- jtt_db.sql (script to create the database)
 ### `php` folder
 - authenticate.php (script used to authenticate a user on login)
 - functions.php (functions to retrieve layer and tutorial data from mysql and display them on the screen)
