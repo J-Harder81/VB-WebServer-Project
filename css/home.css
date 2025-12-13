@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    min-height: 100%;
+    color: #555;
+}
+
+/* ===== Navigation Rules ===== */
+
+nav{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-column-gap: 30px;
+    grid-template-rows: 100px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav .brand img{
+    height: 125px;
+    width: auto;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 35px;
+    transition: background-color 0.3s, color 0.3s;
+    color: #028598;
+    font-size: 18px;
+}
+
+nav a:hover,
+nav a.active{
+    background: #0df27c;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/* ===== Header Rules ===== */
+
+header{
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+header h1{}
+
+header .sub-title{
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+/* ===== Main Rules ===== */
+
+main{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main .section-title{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+main .main-left{
+    border-right: thin solid #d4d4d4;
+    padding-right: 20px;
+}
+
+main .main-left a{
+    display: block;
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+main .main-left a:hover{
+    text-decoration: underline;
+}
+
+main .main-right{
+    width: 600px
+}
+
+main .main-right .section-subtitle{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+main .main-right .overview{
+    line-height: 1.5;
+    word-wrap: break-word;
+    border-bottom: thin solid #d4d4d4;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+main .main-right .overview img{
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+main .main-right .lamp{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+main .main-right .lamp-left img{
+    height: 150px;
+    border: 3px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+main .main-right .lamp-right .lamp-title a{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #555;
+    line-height: 26px;
+}
+
+main .main-right .lamp-right .lamp-title a:hover{
+    text-decoration: underline;
+}
+
+main .main-right .lamp-right .description{
+    margin-top: 10px;
+}
+
+main .content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+main .content .page-title {
+    display: flex;
+    align-items: center;
+    padding: 25px 0 10px 0;
+}
+
+main .content .page-title h2 {
+    margin: 0;
+    padding: 0 0 7px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #53585e;
+}
+
+main .content .page-title p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #777e86;
+}
+
+main .content .block {
+    box-shadow: 0px 0px 7px 1px rgba(45, 57, 68, 0.05);
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+main .content .block p {
+    padding: 7px;
+    margin: 0;
+}
+
+main .content .profile-detail {
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+main .content .profile-detail strong {
+    display: block;
+    color: #92979e;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+/* ===== Footer Rules ===== */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+}
+
+footer img{
+    height: 25px;
+    width: auto;
+    margin-left: 5px;
+}

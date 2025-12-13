@@ -1,0 +1,5 @@
+PHP functions as the application logic layer of the LAMP stack, responsible for processing user input and generating dynamic web content. When a user requests a PHP page, the server executes the script on the backend before sending the final HTML result to the browser. This allows developers to create pages that change based on user actions, stored data, or real-time conditions.
+
+PHP interfaces directly with MySQL to run queries and retrieve information needed to build interactive features. It can insert new records, validate form submissions, authenticate users, and assemble results into readable output. By connecting server-side logic with database operations, PHP enables applications to produce customized responses instead of serving static pages.
+
+PHP’s flexibility and widespread support make it a practical choice for both small projects and large-scale web platforms. Its broad library ecosystem provides tools for authentication, templating, encryption, and API integration. As a core part of the LAMP stack, PHP ties together the operating system, web server, and database to deliver dynamic full-stack functionality.

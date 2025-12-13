@@ -1,0 +1,5 @@
+Apache acts as the web server layer of the LAMP stack, responsible for receiving user requests and delivering web content to their browsers. It listens for HTTP and HTTPS traffic, maps incoming requests to files or scripts, and responds with the appropriate resources. Because Apache is modular, administrators can enable or disable features based on their application’s needs.
+
+When dynamic content is required, Apache works closely with PHP to process scripts and generate data-driven pages. It forwards requests for PHP files to the PHP interpreter and then returns the output to the client. This workflow enables interactive features such as form handling, login systems, and personalized page rendering.
+
+Apache’s configuration system gives developers extensive control over security, URL routing, access permissions, and performance optimizations. Features like virtual hosts allow multiple websites to run on the same server, while modules such as mod_rewrite enable flexible URL structures. Combined with its reliability and wide support base, Apache remains one of the most widely used web servers in the world.
