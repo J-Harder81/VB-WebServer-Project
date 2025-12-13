@@ -17,11 +17,11 @@ The hosted web application explains each layer of the LAMP stack and provides tu
 - **Server-Side Language:** PHP (Hypertext Preprocessor)
 - **Database Management:** phpMyAdmin
 ## Pre-requisites
-1. [Install and configure VirtualBox](assets/files/pdf)
-2. Install and configure Ubuntu Server
-3. Install and configure Apache
-4. Install and configure MySQL
-5. Install and configure PHP  
+1. [Install and configure VirtualBox](assets/files/pdf/vm-setup.pdf)
+2. [Install and configure Ubuntu Server](assets/files/pdf/us-install.pdf)
+3. [Install and configure Apache](assets/files/pdf/apache.pdf)
+4. [Install and configure MySQL](assets/files/pdf/mysql.pdf)
+5. [Install and configure PHP](assets/files/pdf/php.pdf)
   
 Tutorials on how to complete these steps can be found in the `assets/files/pdf` folder or by clicking on the links above.
 ## Setup
