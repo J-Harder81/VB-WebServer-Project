@@ -93,30 +93,34 @@ Tutorials on how to complete these steps can be found in the `assets/files/pdf` 
    Change `username`, `password`, `databasename` to your MySQL username, password and databasename keeping the single quotes
 9. Open a web browser on your host machine and type the VM's IP address in the address bar and you should see the website's login page, you can test the login using the test account that was created from the MySQL script. Username: `test`, Password: `test`
 ## File Structure
-**Webpage files**
+### Webpage files
 - account.php (the account profile page)
 - home.php (the website home page)
 - index.php (the website login page)
 - layer.php (a dynamic page that loads LAMP stack layer information based on user actions)
 - register.php (the website registration page)
 - tutorial.php (a dynamic page that loads tutorial files and provides download link)  
-**`assets` folder**
+### `assets` folder
 - `files`
-    - `pdf` (Folder containing the tutorial files retrieved by the database)
-    - `txt` (Folder containing the text files used for dynamic content retrieved by the database)
-- `images` (folder containing the image files used for both static and dynamic content retrieved by the database)
-**`css` folder**
-- `home.css` (stylesheet for the account, home, layer, and tutorial pages)
-- `login.css` (stylesheet for the login and registration pages)
-**`includes folder`** (Contains shared files used by all the webpages)
+  - `pdf` (Folder containing the tutorial files retrieved by the database)
+  - `txt` (Folder containing the text files used for dynamic content retrieved by the database)
+- `images` (folder containing the image files used for both static and dynamic content retrieved by the database)  
+### `css` folder
+- home.css (stylesheet for the account, home, layer, and tutorial pages)
+- login.css (stylesheet for the login and registration pages)  
+### `includes` folder (Contains shared files used by all the webpages)
 - footer.php (webpage footer)
 - header.php (webpage header)
-- nav.php (webpage navigation bar)
-**`javascript` folder**
-- script.js (script used to highlight which webpage the user is on)
-**`php` folder**
+- nav.php (webpage navigation bar)  
+### `javascript` folder
+- script.js (script used to highlight which webpage the user is on)  
+### `php` folder
 - authenticate.php (script used to authenticate a user on login)
 - functions.php (functions to retrieve layer and tutorial data from mysql and display them on the screen)
 - logout.php (script to terminate a user's session)
 - profile.php (script to get a user's account information from mysql and display them on the screen)
 - register-process.php (script used to create a new account and insert the information in the accounts table of mysql)
+## Author
+Created by Justin Harder  
+Information Technology Student  
+Operating System Architecture Project  
