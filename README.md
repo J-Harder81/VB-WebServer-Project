@@ -23,7 +23,7 @@ The hosted web application explains each layer of the LAMP stack and provides tu
 4. Install and configure MySQL
 5. Install and configure PHP  
   
-Tutorials on how to complete these steps can be found in the assets/files/pdf folder or by clicking on the links above.
+Tutorials on how to complete these steps can be found in the `assets/files/pdf` folder or by clicking on the links above.
 ## Setup
 1. Make a new directory in the Apache root folder
    ```bash
